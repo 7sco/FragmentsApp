@@ -1,0 +1,42 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.franciscoandrade.fragmentspractice.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment"
+            android:background="@color/colorAccent"
+             />
+
+        <Button
+            android:id="@+id/buttonFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click!" />
+
+        <EditText
+            android:id="@+id/editTextFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Text Here"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
